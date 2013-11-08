@@ -1,0 +1,16 @@
+<h2>Single User Tweet</h2>
+
+<%= form_for @tweet do |f| %>
+  <div>
+    <%= f.text_field :content %> <%= f.submit "Tweet" %>
+  </div>
+<% end %>
+
+
+<!--
+<% @tweets.each do |tweet| %>
+  <div>
+    <%= tweet.content %>
+  </div>
+<% end %>
+-->
